@@ -1,0 +1,11 @@
+- name: Configure local haproxy
+  hosts: haproxy
+  become: true
+  roles:
+    - haproxy
+
+- name: Configure local microservices
+  hosts: microservices
+  become: true
+  roles:
+    - microservices
