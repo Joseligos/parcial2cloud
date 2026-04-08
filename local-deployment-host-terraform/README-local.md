@@ -75,10 +75,3 @@ vagrant destroy -f
 
 Tambien puedes hacerlo via Terraform (desde `host-terraform`):
 
-```powershell
-terraform destroy -auto-approve
-```
-
-## Nota
-
-Este flujo no altera `local-deployment/` original. Todo esta encapsulado en esta carpeta separada.
